@@ -11,6 +11,8 @@ classdef Robot < handle
     % détruire le plus vite possible.
     % 
     % Vous pouvez ajouter votre code dans la fonction *update*
+    % Vous êtes aussi libre d'ajouter des attributs, des méthodes ou des
+    % scripts annexes si nécessaire. 
     
     
     %% Propriétés du robot
@@ -35,6 +37,12 @@ classdef Robot < handle
         % deux valeurs à votre convenance. Par exemple pour faire bouger votre
         % robot vers la droite, choisissez vx = 1 et vy = 0. Pour le faire
         % bouger vers le bas, choisissez vx = 0 et vy = -1.
+        %
+        % ATTENTION : Vous ne pouvez pas déplacer le robot à une
+        % coordonnée absolue (x,y). Le robot n'a pas de GPS, ni de
+        % perception globale de l'environement. Vous pouvez juste lui
+        % ordonner de se déplacer dans une certaine direction par rapport à
+        % son emplacement actuel.
         %
         % Il est recommandé d'utiliser la fonction 'move' (voir plus bas) pour
         % mettre à jour vx et vy.
@@ -145,7 +153,7 @@ classdef Robot < handle
         % reçoit des informations sur son environement proche.
         % Ces informations sont contenues dans la variable INFO. 
         
-        % La variable INFO contient les informations suivantes
+        % La variable INFO contient les informations suivantes :
         %
         % INFO.murs.dist_haut : La distance entre le robot et le mur 
         % du haut de l'arène. 
@@ -173,15 +181,18 @@ classdef Robot < handle
         % Par exemple,
         %
         % INFO.voisins{i}.id vous donne l'identifiant du voisin i. 
+        %
         % INFO.voisins{i}.cible_detected permet de savoir si le voisin i
         % a détécté la cible.
+        %
         % INFO.voisins{i}.move(vx,vy) permet d'ordonner au voisin i de se
         % déplacer le long de vx,vy. 
+        %
         % INFO.voisins{i}.set_info_cible(x,y) permet de donner les coordonnées 
         % de la cible au voisin i. 
+        %
         % etc... 
-  
-
+        %
         % Les informations contenues dans INFO sont essentielles pour adapter le 
         % comportement de votre robot.
         
@@ -200,6 +211,9 @@ classdef Robot < handle
             
             %exemple1 ;
             
+            % L'exemple 1 n'est pas très efficace car les robots se
+            % coincent contre les murs et ne communiquent jamais.
+            %
             % Voici un autre exemple un peu plus élaboré. Dans le script
             % exemple2.m le robot se déplace aléatoirement mais il évite
             % les murs et communique la position de la cible à ses voisins
@@ -212,8 +226,14 @@ classdef Robot < handle
             
             exemple2;
             
-            % Lorsque votre programme est prêt, tapez Main dans la fenetre de 
-            % commandes de Matlab pour lancer la simulation
+            % À tout moment, vous pouvez taper Main dans la fenetre de 
+            % commandes de Matlab pour lancer la simulation.
+            
+            % Lorsque votre programme est prêt, utilisez ce formulaire pour
+            % participer au tournois :
+            % https://form.jotform.com/211041157414038
+            
+            % Amusez-vous bien !
             
 
         end
