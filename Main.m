@@ -22,7 +22,7 @@ ai = rand(1,N).*2*  pi - pi ;
  
 initial_conditions = [xi ; yi ; ai ] ;
  
-r = Robotarium('NumberOfRobots', N, 'ShowFigure', false, 'InitialConditions', initial_conditions);
+r = Robotarium('NumberOfRobots', N, 'ShowFigure', true, 'InitialConditions', initial_conditions);
 
 
 %% PARAMETERS 
@@ -43,8 +43,8 @@ target_attacked = zeros(1,N); % Which robots are attacking the taget
 
 %% AFFICHAGE
 d = plot(x_target,y_target,'ro');
-target_caption = text(-1.5, -1.2, sprintf('Energie de la cible : %0.1f%%', target_energy), 'FontSize', 15, 'FontWeight', 'bold', 'Color','r');
-time_caption = text(-1.5, -1.4, sprintf('Temps écoulé : 0 s'), 'FontSize', 14, 'FontWeight', 'bold', 'Color','r');
+target_caption = text(-1.5, -1.1, sprintf('Energie de la cible : %0.1f%%', target_energy), 'FontSize', 15, 'FontWeight', 'bold', 'Color','r');
+time_caption = text(-1.5, -1.2, sprintf('Temps écoulé : 0 s'), 'FontSize', 14, 'FontWeight', 'bold', 'Color','r');
 uistack(target_caption, 'top'); 
 uistack(time_caption, 'top'); 
 uistack(d, 'bottom');
