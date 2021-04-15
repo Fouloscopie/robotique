@@ -1,5 +1,5 @@
 # Tournois de robotique collective
-Petit programme de robotique en Matlab pour la préparation de l'épisode #13 de Fouloscopie 
+Ceci est un simulateur de robotique collective en Matlab pour la préparation de l'épisode #13 de Fouloscopie 
 
 # Introduction
 J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer et communiquer les uns avec les autres dans un certain rayon de perception.
@@ -20,7 +20,7 @@ Ces robots ne sont *pas télécommandés*. Ils sont autonomes. Cela signifie qu�
 # Scénario
 Voici le scénario de l’exercice. Les 12 robots sont placés au milieu d’une arène de 3,2 x 1,6 mètres. Une cible de 5 cm est cachée quelque part dans l’arène. Les robots doivent la trouver et la détruire le plus rapidement possible. 
 <p align="center">
-  <img src="http://fouloscopie.com/E3/Robots3.png" width="600" alt="un robot"><br/>
+  <img src="http://fouloscopie.com/E3/Robots3.png" width="600" alt="scenario"><br/>
 Voici les 12 robots dans leur position de départ au milieu de l’arène. 
 Le point rouge est la cible. Elle peut se situer n’importe où dans l’arène. 
 Les robots ne connaissent pas son emplacement.<br/>
@@ -77,6 +77,10 @@ Avec cette stratégie, les robots mettent en moyenne 406 secondes pour détruire
 L’interface de programmation n’existe qu’en Matlab. Si vous avez accès à une licence Matlab et si vous voulez participer, vous pouvez m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition pour voir laquelle sera la meilleure.  
 
 L’interface de programmation possède un simulateur. Cela signifie que vous pouvez tester votre code et visualiser le résultat en simulation avant de me l’envoyer. 
+<p align="center">
+  <img src="http://fouloscopie.com/E3/simulateur.png" width="600" alt="simulateur"><br/>
+  Le simulateur de robots sur Matlab. Le point rouge indique l'emplacement de la cible <br/>
+</p>
 
 La programmation des robots est assez simple et intuitive. Vous devez seulement modifier le script Robot.m (les commentaires vous aideront à écrire votre code). Par ailleurs, le programme correspondant à la stratégie “Recherche aléatoire” décrite ci-dessus est fourni en exemple pour vous aider à démarrer. 
 
