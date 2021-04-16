@@ -209,10 +209,10 @@ classdef Robot < handle
             % propre programme) 
             
             
-            %exemple1 ;
+            exemple1 ;
             
-            % L'exemple 1 n'est pas très efficace car les robots se
-            % coincent contre les murs et ne communiquent jamais.
+            % L'exemple 1 n'est pas très efficace car les robots ont
+            % tendance à se coincer contre les murs.
             %
             % Voici un autre exemple un peu plus élaboré. Dans le script
             % exemple2.m le robot se déplace aléatoirement mais il évite
@@ -224,7 +224,7 @@ classdef Robot < handle
             % propre programme) 
             
             
-            exemple2;
+            %exemple2;
             
             % À tout moment, vous pouvez taper Main dans la fenetre de 
             % commandes de Matlab pour lancer la simulation.

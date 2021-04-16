@@ -1,13 +1,8 @@
 %% Voici un exemple de progamme pour la fonction *update* des robots.
-% Ici, les robots se déplacent aléatoirement s'il ne connaissent pas les
-% coordonnées de la cible, tout en évitant les murs. 
-% Si l'emplacement de la cible est connu, le robot se rapproche d'elle et
-% s'immobilise lorsqu'il est à distance d'attaque. 
 
-% Si l'emplacement de la cible est connu, le robot passe l'information à tous ses voisins.
-% (les "voisins" sont les autres robots situés dans le rayon de perception
-% du robot)
-
+% Dans l'exemple précédent, les robots perdent beaucoup de temps à longer les murs 
+% de l'arène. Dans ce deuxième exemple, il vont en plus éviter les murs
+% (tout le reste est identique à l'exemple 1).
 
 
    % Si le robot ne sait pas où est la cible, il cherche 
@@ -19,7 +14,7 @@
         % dirige dans la direction opposée
         
         border_v = [0 0]; % direction opposée aux murs
-        SAFE_BORDER = 0.2; % distance de sécurité (20 cm)
+        SAFE_BORDER = 0.2; % distance d'évitement des murs (20 cm)
 
         % La variable INFO.murs nous donne la distance de chaque mur.
         if INFO.murs.dist_droite < SAFE_BORDER
@@ -59,6 +54,14 @@
 
     else    
         
+    % Le robot qui connait l'emplacement de la cible donne 
+    % l'information à tous ses voisins.
+    
+            for i=1:INFO.nbVoisins
+                voisin = INFO.voisins{i};
+                voisin.set_info_cible(robot.cible_x, robot.cible_y);
+            end
+       
     % Si le robot connait l'emplacement de la cible
     % il s'en rapproche jusqu'à ce qu'il puisse l'attaquer
         if (robot.cible_attacked==0)
@@ -66,18 +69,12 @@
             vy = robot.cible_y-robot.y ;
             robot.move(vx,vy);
         else
-            % S'il est assez proche pour attaquer, il s'immobilise
+            % S'il est assez proche pour attaquer, il s'immobilise (attaque
+            % automatique)
             robot.move(0,0);
         end
         
 
-    % Dans tous les cas, si le robot connait l'emplacement de la cible, il donne 
-    % l'information à tous ses voisins.
-    
-            for i=1:INFO.nbVoisins
-                voisin = INFO.voisins{i};
-                voisin.set_info_cible(robot.cible_x, robot.cible_y);
-            end
 
     end
 
