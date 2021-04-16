@@ -75,16 +75,20 @@ Avec cette stratégie, les robots mettent en moyenne 406 secondes pour détruire
 
 # Programmation
 
-L’interface de programmation n’existe qu’en Matlab. Si vous avez accès à une licence Matlab et si vous voulez participer, vous pouvez m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition pour voir laquelle sera la meilleure.  
+L’interface de programmation n’existe **qu’en Matlab**. Si vous avez accès à une licence Matlab et si vous voulez participer, vous pouvez m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition (y compris la mienne) pour voir laquelle sera la meilleure.  
 
-L’interface de programmation possède un simulateur. Cela signifie que vous pouvez tester votre code et visualiser le résultat en simulation avant de me l’envoyer. 
+L’interface de programmation possède un **simulateur**. Cela signifie que vous pouvez tester votre code et visualiser le résultat en simulation avant de me l’envoyer. 
 <p align="center">
   <img src="http://fouloscopie.com/E3/simulateur.png" width="600" alt="simulateur"><br/>
-  Le simulateur de robots sur Matlab. Le point rouge indique l'emplacement de la cible <br/>
+  <i>Le simulateur de robots sur Matlab. Le point rouge (en haut à droite) indique l'emplacement de la cible</i> <br/>
 </p>
 
 La programmation des robots est assez simple et intuitive. Vous devez seulement modifier le script Robot.m (les commentaires vous aideront à écrire votre code). Par ailleurs, le programme correspondant à la stratégie “Recherche aléatoire” décrite ci-dessus est fourni en exemple pour vous aider à démarrer. 
 
 Pour lancer le simulateur, il suffit de taper ‘Main’ dans Matlab. 
+
+Lorsque votre code est prêt, vous pouvez me le faire parvenir en utilisant ce formulaire :
+https://form.jotform.com/211041157414038
+
 
 Amusez-vous ! 
