@@ -5,15 +5,16 @@ Ceci est un simulateur de robotique collective en Matlab pour la préparation de
 J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer et communiquer les uns avec les autres dans un certain rayon de perception.
 <p align="center">
   <img src="http://fouloscopie.com/E3/Robot1.jpeg" width="200" alt="un robot"><br/>
-  Voici un robot. Il mesure environ 10 cm x 10 cm.<br/>
+  <i>Voici un robot. Il mesure environ 10 cm x 10 cm.</i><br/>
 </p>
 
 <p align="center">
   <img src="http://fouloscopie.com/E3/robot2.png" width="600" alt="rayon de perception"><br/>
-  Voici cinq robots. 
+  <i>Voici cinq robots. 
 Le cercle rouge correspond au rayon de perception du robot R1 : le robot R1 peut voir et communiquer avec R2 et R3, mais pas avec R4 ni R5. 
-Le rayon de perception fait environ 30 cm <br/>
+Le rayon de perception fait environ 30 cm. </i><br/>
 </p>
+
 
 Ces robots ne sont *pas télécommandés*. Ils sont autonomes. Cela signifie qu’ils doivent être programmés à l’avance avec des règles comportementales simples.
 
@@ -21,9 +22,9 @@ Ces robots ne sont *pas télécommandés*. Ils sont autonomes. Cela signifie qu�
 Voici le scénario de l’exercice. Les 12 robots sont placés au milieu d’une arène de 3,2 x 1,6 mètres. Une cible de 5 cm est cachée quelque part dans l’arène. Les robots doivent la trouver et la détruire le plus rapidement possible. 
 <p align="center">
   <img src="http://fouloscopie.com/E3/Robots3.png" width="600" alt="scenario"><br/>
-Voici les 12 robots dans leur position de départ au milieu de l’arène. 
+<i>Voici les 12 robots dans leur position de départ au milieu de l’arène. 
 Le point rouge est la cible. Elle peut se situer n’importe où dans l’arène. 
-Les robots ne connaissent pas son emplacement.<br/>
+Les robots ne connaissent pas son emplacement.</i><br/>
 </p>
 
 ## Comment trouver la cible ? 
@@ -31,7 +32,7 @@ Un robot peut trouver la cible de deux façons différentes :
 - Soit il touche la cible en se déplaçant dessus,
 - Soit un autre robot qui connaît l’emplacement de la cible lui communique l’information (mais pour cela il doit être dans son rayon de perception). 
 
-Lorsqu'un robot a découvert l'emplacement de la cible, il allume sa diode verte. 
+Lorsqu'un robot decouvre l'emplacement de la cible, il allume sa diode verte. 
 
 ## Comment détruire la cible ?
 La cible a initialement une énergie de **100 points**. Si l'énergie de la cible est réduite à 0, la mission est accomplie. 
