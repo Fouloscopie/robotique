@@ -80,7 +80,7 @@ L’interface de programmation n’existe **qu’en Matlab**. Si vous avez accè
 L’interface de programmation possède un **simulateur**. Cela signifie que vous pouvez tester votre code et visualiser le résultat en simulation avant de me l’envoyer. 
 <p align="center">
   <img src="http://fouloscopie.com/E3/simulateur.png" width="600" alt="simulateur"><br/>
-  <i>Le simulateur de robots sur Matlab. Le point rouge (en haut à droite) indique l'emplacement de la cible</i> <br/>
+  <i>Le simulateur de robots sur Matlab. <br/>Le point rouge (en haut à droite) indique l'emplacement de la cible</i> <br/>
 </p>
 
 La programmation des robots est assez simple et intuitive. Vous devez seulement modifier le script Robot.m (les commentaires vous aideront à écrire votre code). Par ailleurs, le programme correspondant à la stratégie “Recherche aléatoire” décrite ci-dessus est fourni en exemple pour vous aider à démarrer. 
