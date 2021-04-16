@@ -70,7 +70,7 @@ Si l’emplacement de la cible est connu :
 		Arrêter le mouvement (le robot va alors attaquer la cible)
 ```
 
-Avec cette stratégie, les robots mettent en moyenne 406 secondes pour détruire la cible. Il y a moyen de faire beaucoup mieux !
+Avec cette stratégie, les robots mettent en moyenne 142 secondes pour détruire la cible. Il y a moyen de faire beaucoup mieux !
 
 
 # Programmation
