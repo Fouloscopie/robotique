@@ -6,8 +6,10 @@
 	<br/>
 </p>
 
-
-Pour participer au tournois, vous devez avoir accès à **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
+<p align="center">
+<b>Pour participer au tournois, vous devez avoir accès à Matlab</b>. 
+	</p>
+Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
 
 <p align="center">
 https://fr.mathworks.com/products/get-matlab.html
