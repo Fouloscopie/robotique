@@ -2,13 +2,11 @@
 Ceci est un simulateur de robotique collective en Matlab pour le prochaine épisode de Fouloscopie. 
 
 
-<div align="center">
-   ![caption](robotsTournois.gif)
-</div>
-<center>
-![caption](robotsTournois.gif)
-	</center>
-![caption](robotsTournois.gif)	
+<p align="center">
+  <img src="robotsTournois.gif" alt="animated" /><br/>
+	Mes robots en pleine action
+</p>
+
 
 Pour participer au tournois, vous devez avoir accès à une license **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
 
