@@ -24,12 +24,12 @@ Le niveau de programation est facile. Pas besoin d'être un pro en Matlab ! Il f
 J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer et communiquer les uns avec les autres dans un certain rayon de perception.
 <p align="center">
   <img src="http://fouloscopie.com/E3/Robot1.jpeg" width="200" alt="un robot"><br/>
-  <i>Voici un robot. Il mesure environ 10 cm x 10 cm.</i><br/>
+  <i>Voici un robot.<br/> Il mesure environ 10 cm x 10 cm.</i><br/>
 </p>
 
 <p align="center">
   <img src="http://fouloscopie.com/E3/robot2.png" width="600" alt="rayon de perception"><br/>
-  <i>Voici cinq robots. 
+  <i>Voici cinq robots. <br/>
 Le cercle rouge correspond au rayon de perception du robot R1 : le robot R1 peut voir et communiquer avec R2 et R3, mais pas avec R4 ni R5. 
 Le rayon de perception fait environ 30 cm. </i><br/><br/>
 </p>
