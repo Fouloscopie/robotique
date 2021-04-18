@@ -19,6 +19,10 @@ Une fois que vous avez un accès à Matlab, vous pouvez commencer à vous amuser
 
 Le niveau de programation est facile. Pas besoin d'être un pro en Matlab ! Il faut seulement modifier la classe ```Robot.m``` à votre convenance. 
 
+<p align="center">
+	<br/> <b>Merci de m'envoyer vos constributions avant le lundi 3 Mai</b><br/>
+</p>
+
 
 # Introduction
 J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer et communiquer les uns avec les autres dans un certain rayon de perception.
