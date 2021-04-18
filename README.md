@@ -1,5 +1,12 @@
 # Tournois de robotique collective
-Ceci est un simulateur de robotique collective en Matlab pour la préparation de l'épisode #13 de Fouloscopie 
+Ceci est un simulateur de robotique collective en Matlab pour le prochaine épisode de Fouloscopie. 
+
+Pour participer au tournois, vous devez avoir accès à une license **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
+
+https://fr.mathworks.com/products/get-matlab.html
+
+Une fois que vous avez un accès à Matlab, vous pouvez commencer à vous amuser et m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition (y compris la mienne) pour voir laquelle sera la meilleure.
+
 
 # Introduction
 J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer et communiquer les uns avec les autres dans un certain rayon de perception.
@@ -25,6 +32,17 @@ Voici le scénario de l’exercice. Les 12 robots sont placés au milieu d’une
 <i>Voici les 12 robots dans leur position de départ au milieu de l’arène. 
 Le point rouge est la cible. Elle peut se situer n’importe où dans l’arène. 
 Les robots ne connaissent pas son emplacement.</i><br/>
+</p>
+
+<p align="center">
+
+
+![caption](http://fouloscopie.com/E3/robotsTournois.gif)
+
+<video width="320" height="240" controls>
+  <source src="http://fouloscopie.com/E3/robotsTournois.mp4" type="video/mp4">
+</video>
+  <i>Voici un robot. Il mesure environ 10 cm x 10 cm.</i><br/>
 </p>
 
 ## Comment trouver la cible ? 
@@ -75,7 +93,6 @@ Avec cette stratégie, les robots mettent en moyenne 142 secondes pour détruire
 
 # Programmation
 
-L’interface de programmation n’existe **qu’en Matlab**. Si vous avez accès à une licence Matlab et si vous voulez participer, vous pouvez m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition (y compris la mienne) pour voir laquelle sera la meilleure.  
 
 L’interface de programmation possède un **simulateur**. Cela signifie que vous pouvez tester votre code et visualiser le résultat en simulation avant de me l’envoyer. 
 <p align="center">
