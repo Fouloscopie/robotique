@@ -1,21 +1,21 @@
-# Tournois de robotique collective
-Ceci est un simulateur de robotique collective en Matlab pour le prochaine épisode de Fouloscopie. 
-
+# Tournois de robotique collective [Fouloscopie #13]
 
 <p align="center">
   <img src="robotsTournois.gif" alt="animated" /><br/>
-	<i>Mes robots en pleine action <br/> Le but du jeu est de programmer les robots pour qu'ils découvrent et détruisent une cible cachée dans l'environement.<br/>  </i>
+	<i>Mes robots en pleine action ! <br/> Le but du jeu est de programmer les robots pour qu'ils découvrent et détruisent une cible cachée dans l'environement.<br/>  </i>
 	<br/>
 </p>
 
 
-Pour participer au tournois, vous devez avoir accès à une license **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
+Pour participer au tournois, vous devez avoir accès à **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
 
 <p align="center">
 https://fr.mathworks.com/products/get-matlab.html
 </p>
 
 Une fois que vous avez un accès à Matlab, vous pouvez commencer à vous amuser et m’envoyer votre code. Je mettrai toutes les stratégies que vous m’envoyez en compétition (y compris la mienne) pour voir laquelle sera la meilleure.
+
+Le niveau de programation est facile. Pas besoin d'être un pro en Matlab ! Il faut seulement modifier la classe ```Robot.m``` à votre convenance. 
 
 
 # Introduction
@@ -29,7 +29,7 @@ J’ai à ma disposition un groupe de 12 petits robots. Ils peuvent se déplacer
   <img src="http://fouloscopie.com/E3/robot2.png" width="600" alt="rayon de perception"><br/>
   <i>Voici cinq robots. 
 Le cercle rouge correspond au rayon de perception du robot R1 : le robot R1 peut voir et communiquer avec R2 et R3, mais pas avec R4 ni R5. 
-Le rayon de perception fait environ 30 cm. </i><br/>
+Le rayon de perception fait environ 30 cm. </i><br/><br/>
 </p>
 
 
@@ -90,7 +90,7 @@ Si l’emplacement de la cible est connu :
 		Arrêter le mouvement (le robot va alors attaquer la cible)
 ```
 
-Avec cette stratégie, les robots mettent en moyenne 142 secondes pour détruire la cible. Il y a moyen de faire beaucoup mieux !
+Avec cette stratégie, les robots mettent en moyenne **142 secondes** pour détruire la cible. Il y a moyen de faire beaucoup mieux !
 
 
 # Programmation
@@ -107,7 +107,9 @@ La programmation des robots est assez simple et intuitive. Vous devez seulement 
 Pour lancer le simulateur, il suffit de taper ‘Main’ dans Matlab. 
 
 Lorsque votre code est prêt, vous pouvez me le faire parvenir en utilisant ce formulaire :
+<p align="center">
 https://form.jotform.com/211041157414038
+</p>
 
 
-Amusez-vous ! 
+Amusez-vous bien ! 
