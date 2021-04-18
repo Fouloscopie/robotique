@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="robotsTournois.gif" alt="animated" /><br/>
-	<i>Mes robots en pleine action ! <br/> Le but du jeu est de programmer les robots pour qu'ils découvrent et détruisent une cible cachée dans l'environement.<br/>  </i>
+	<i>Mes robots en pleine action ! <br/> Le but du jeu est de programmer les robots pour qu'ils découvrent et détruisent une cible cachée dans l'environnement.<br/>  </i>
 	<br/>
 </p>
 
