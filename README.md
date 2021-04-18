@@ -1,6 +1,11 @@
 # Tournois de robotique collective
 Ceci est un simulateur de robotique collective en Matlab pour le prochaine épisode de Fouloscopie. 
 
+
+<p align="center">
+   ![caption](robotsTournois.gif)
+</p>
+
 Pour participer au tournois, vous devez avoir accès à une license **Matlab**. Ce n'est pas idéal, je sais, mais la plateforme de programmation des robots n'est disponible que dans ce langage. Si vous n'avez pas de license, vous pouvez essayer de télécharger une version d'essai de Matlab (gratuite et valide pendant 30 jours) :
 
 https://fr.mathworks.com/products/get-matlab.html
@@ -36,14 +41,6 @@ Les robots ne connaissent pas son emplacement.</i><br/>
 
 <p align="center">
 
-
-![caption](robotsTournois.gif)
-
-<video width="320" height="240" controls>
-  <source src="http://fouloscopie.com/E3/robotsTournois.mp4" type="video/mp4">
-</video>
-  <i>Voici un robot. Il mesure environ 10 cm x 10 cm.</i><br/>
-</p>
 
 ## Comment trouver la cible ? 
 Un robot peut trouver la cible de deux façons différentes :
