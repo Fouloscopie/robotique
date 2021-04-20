@@ -42,7 +42,7 @@ Le rayon de perception fait environ 30 cm. </i><br/><br/>
 Ces robots ne sont *pas télécommandés*. Ils sont autonomes. Cela signifie qu’ils doivent être programmés à l’avance avec des règles comportementales simples.
 
 # Scénario
-Voici le scénario de l’exercice. Les 12 robots sont placés au milieu d’une arène de 3,2 x 1,6 mètres. Une cible de 5 cm est cachée quelque part dans l’arène. Les robots doivent la trouver et la détruire le plus rapidement possible. 
+Voici le scénario de l’exercice. Les 12 robots sont placés au milieu d’une arène de 3,2 x 2 mètres. Une cible de 5 cm est cachée quelque part dans l’arène. Les robots doivent la trouver et la détruire le plus rapidement possible. 
 <p align="center">
   <img src="http://fouloscopie.com/E3/Robots3.png" width="600" alt="scenario"><br/>
 <i>Voici les 12 robots dans leur position de départ au milieu de l’arène. 
