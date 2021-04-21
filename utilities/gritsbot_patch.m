@@ -23,7 +23,7 @@ function [ patch_data ] = gritsbot_patch()
     
     % Helper functions to generate vertex coordinates for a centered
     % rectangle and a helper function to shift a rectangle.
-    rectangle = @(w, h) [w/2 h/2 1; -w/2 h/2 1; -w/2 -h/2 1; w/2 -h/2 1];    
+    rectangle = @(w, h) [w/2 h/2 1; -w/2 h/2 1; -w/2 -h/2 1; w/2 -h/2 1];
     shift = @(r, x, y) r + repmat([x, y, 0], size(r, 1), 1);
     
     function cir = circle(r, ite)
