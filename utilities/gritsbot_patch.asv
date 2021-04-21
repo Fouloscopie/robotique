@@ -42,12 +42,12 @@ function [ patch_data ] = gritsbot_patch()
     attack_range = circle(ATTACK_RANGE, ite_circle_attack);
     detection_range = circle(DETECTION_RANGE, ite_circle_detection);
     
+    
     % Use pre-generated vertices and shift them around to create a robot
     left_wheel = shift(wheel, -(robot_width + wheel_width)/2, -robot_height/6);
     right_wheel = shift(wheel, (robot_width + wheel_width)/2, -robot_height/6);
     left_led = shift(led,  robot_width/8, robot_height/2 - 2*led_size);
     right_led = shift(led,  robot_width/4, robot_height/2 - 2*led_size);
-    
     % Putting all the robot vertices together
     vertices = [
      body ; 
@@ -69,7 +69,7 @@ function [ patch_data ] = gritsbot_patch()
     ];
     % Color of attack circle, red by default
     colors = cat(1, colors, repmat([1 0 0], ite_circle_attack, 1));
-    % Color of detection circle, blue by default
+    % Color of 
     colors = cat(1, colors, repmat([0 0 1], ite_circle_detection, 1));
 
     % This seems weird, but it basically tells the patch function which
