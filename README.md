@@ -20,7 +20,7 @@ Une fois que vous avez un accès à Matlab, vous pouvez commencer à vous amuser
 Le niveau de programation est facile. Pas besoin d'être un pro en Matlab ! Il faut seulement modifier la classe ```Robot.m``` à votre convenance. 
 
 <p align="center">
-	<br/> <b>Merci de m'envoyer vos constributions avant le lundi 3 Mai</b><br/>
+	<br/> <b>Merci de m'envoyer vos contributions avant le lundi 3 Mai</b><br/>
 </p>
 
 
