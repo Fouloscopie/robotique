@@ -1,4 +1,5 @@
-# Tournois de robotique collective [Fouloscopie #13]
+# LES PARTICIPATIONS SONT CLOSES ! MERCI POUR VOS PROGRAMMES ! 
+## Et rendez-vous très bientot pour les résultats en vidéo
 
 <p align="center">
   <img src="robotsTournois.gif" alt="animated" /><br/>
@@ -112,10 +113,10 @@ La programmation des robots est assez simple et intuitive. Vous devez seulement 
 
 Pour lancer le simulateur, il suffit de taper ‘Main’ dans Matlab. 
 
-Lorsque votre code est prêt, vous pouvez me le faire parvenir en utilisant ce formulaire :
-<p align="center">
-https://form.jotform.com/211041157414038
-</p>
+LES PARTICIPATIONS SONT CLOSES ! NE M'ENVOYEZ PLUS DE PROGRAMMES, J'AI DÉjÀ LANCÉ LE TOURNOIS !
+
+
+
 
 
 Amusez-vous bien ! 
